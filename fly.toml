@@ -17,7 +17,7 @@ destination = "/data"
 source = "data"
 
 [processes]
-app = "node ./dbsetup.js npm run docker-start"
+app = "npm run docker-start"
 
 [[vm]]
 cpu_kind = "shared"
