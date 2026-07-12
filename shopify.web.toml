@@ -1,4 +1,4 @@
-name = "React Router"
+name = "Bridgit-AI"
 roles = ["frontend", "backend"]
 webhooks_path = "/webhooks/app/uninstalled"
 
