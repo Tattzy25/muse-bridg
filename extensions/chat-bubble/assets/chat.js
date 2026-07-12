@@ -7,7 +7,7 @@
 (function() {
   'use strict';
    
-   const API_BASE = 'https://bridgit-ai.com';
+   const API_BASE = '/apps/chat';
   /**
    * Application namespace to prevent global scope pollution
    */
@@ -781,7 +781,6 @@
 
           try {
             const tokenUrl = `${API_BASE}/auth/token-status?conversation_id=${encodeURIComponent(conversationId)}`;
-              encodeURIComponent(conversationId);
             const response = await fetch(tokenUrl);
 
             if (!response.ok) {
