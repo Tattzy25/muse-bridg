@@ -6,7 +6,8 @@
  */
 (function() {
   'use strict';
-
+   
+   const API_BASE = 'https://bridgit-ai.com';
   /**
    * Application namespace to prevent global scope pollution
    */
